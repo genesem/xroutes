@@ -1,7 +1,9 @@
-<img src="https://genesem.github.io/logo/xroutes.png" alt="xRoutes" title="xRoutes - go lang http api" align="center"/>
-<br/>
 
-xRoutes is *Golang* http routing API
+<img src="https://genesem.github.io/logo/xroutes.png" alt="xRoutes" title="xRoutes - go lang http api" align="center"/>
+<br/><br/>
+
+### `xRoutes` is *golang* fast http routing API
+------------------------------------------------
 
 [![GoDoc](https://godoc.org/github.com/genesem/xroutes?status.png)](https://godoc.org/github.com/genesem/xroutes) [![Build Status](https://travis-ci.org/genesem/xroutes.svg?branch=master)](https://travis-ci.org/genesem/xroutes)
 
@@ -11,11 +13,11 @@ xRoutes is *Golang* http routing API
 It is forked from <https://github.com/drone/routes> with some mods
 and used for internal projects at this time.
 
-## Install:
+### Install:
 
     go get github.com/genesem/xroutes
 
-## Getting Started
+### Getting Started
 
     package main
 
@@ -56,7 +58,7 @@ You can specify custom regular expressions for routes:
     mux.Get("/files/:param(.+)", handler)
 
 
-## Filters / Middleware
+### Filters / Middleware
 You can apply filters to routes, which is useful for enforcing security,
 redirects, etc.
 

@@ -1,7 +1,7 @@
 
-![xRoutes](http://genesem.github.io/logo/xroutes.png "xRoutes - go lang http api")
+<img src="https://genesem.github.io/logo/xroutes.png" alt="xRoutes" title="xRoutes - go lang http api" align="center"/>
 
-xRoutes [![GoDoc](https://godoc.org/github.com/genesem/xroutes?status.png)](https://godoc.org/github.com/genesem/xroutes) [![Build Status](https://travis-ci.org/genesem/xroutes.svg?branch=master)](https://travis-ci.org/genesem/xroutes)
+[![GoDoc](https://godoc.org/github.com/genesem/xroutes?status.png)](https://godoc.org/github.com/genesem/xroutes) [![Build Status](https://travis-ci.org/genesem/xroutes.svg?branch=master)](https://travis-ci.org/genesem/xroutes)
 =====
 
 Golang simple http routing API

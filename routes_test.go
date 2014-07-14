@@ -2,11 +2,9 @@ package xroutes
 
 import (
 	"fmt"
-	"io/ioutil"
 	"net/http"
 	"net/http/httptest"
 	"net/url"
-	"os"
 	"testing"
 )
 
@@ -71,24 +69,6 @@ func TestNotFound(t *testing.T) {
 
 	if w.Code != http.StatusNotFound {
 		t.Errorf("Code set to [%v]; want [%v]", w.Code, http.StatusNotFound)
-	}
-}
-
-// TestStatic tests the ability to serve static
-// content from the filesystem
-func TestStatic(t *testing.T) {
-
-	r, _ := http.NewRequest("GET", "/routes_test.go", nil)
-	w := httptest.NewRecorder()
-	pwd, _ := os.Getwd()
-
-	handler := new(RouteMux)
-	handler.Static("/", pwd)
-	handler.ServeHTTP(w, r)
-
-	testFile, _ := ioutil.ReadFile(pwd + "/routes_test.go")
-	if w.Body.String() != string(testFile) {
-		t.Errorf("handler.Static failed to serve file")
 	}
 }
 

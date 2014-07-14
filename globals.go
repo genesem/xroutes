@@ -1,6 +1,9 @@
 package xroutes
 
-import ("net/http";"regexp")
+import (
+	"net/http"
+	"regexp"
+)
 
 const (
 	CONNECT = "CONNECT"

@@ -1,4 +1,4 @@
-xRoutes [![GoDoc](https://godoc.org/github.com/genesem/xroutes?status.png)](https://godoc.org/github.com/genesem/xroutes) 
+xRoutes [![GoDoc](https://godoc.org/github.com/genesem/xroutes?status.png)](https://godoc.org/github.com/genesem/xroutes) [![Build Status](https://travis-ci.org/genesem/xroutes.svg?branch=master)](https://travis-ci.org/genesem/xroutes)
 =====
 
 A simple http routing API

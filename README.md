@@ -40,12 +40,15 @@ and used for internal projects at this time.
     }
 
     func main() {
-        mux := routes.New()
+        mux := xroutes.New()
         mux.Get("/:last/:first", Whoami)
 
         http.Handle("/", mux)
-        http.ListenAndServe(":8088", nil)
+        http.ListenAndServe(":3000", nil)
     }
+
+
+Visit with browser: <http://localhost:3000>
 
 
 ### Route Examples

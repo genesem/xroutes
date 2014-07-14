@@ -9,10 +9,10 @@ and used for internal projects at this time.
 
 ## Install:
 
-    `go get github.com/genesem/xroutes`
+    go get github.com/genesem/xroutes
 
 ## Getting Started
-`
+
     package main
 
     import (
@@ -35,20 +35,21 @@ and used for internal projects at this time.
         http.Handle("/", mux)
         http.ListenAndServe(":8088", nil)
     }
-`
+
 
 ### Route Examples
+
 You can create routes for all http methods:
-`
+
     mux.Get("/:param", handler)
     mux.Put("/:param", handler)
     mux.Post("/:param", handler)
     mux.Patch("/:param", handler)
     mux.Del("/:param", handler)
-`
+
 You can specify custom regular expressions for routes:
 
-    `mux.Get("/files/:param(.+)", handler)`
+    mux.Get("/files/:param(.+)", handler)
 
 
 ## Filters / Middleware

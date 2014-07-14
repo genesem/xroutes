@@ -8,12 +8,19 @@
 [![GoDoc](https://godoc.org/github.com/genesem/xroutes?status.png)](https://godoc.org/github.com/genesem/xroutes) [![Build Status](https://travis-ci.org/genesem/xroutes.svg?branch=master)](https://travis-ci.org/genesem/xroutes)
 
 
-It is forked from <https://github.com/drone/routes> with some mods
-and used for internal projects at this time.
+### Key features
+    - simplicity
+    - designed to be fast
+    - custom regexp's in parameters
+    - filers to routes
+
+   It is forked from <https://github.com/drone/routes> with some mods
+   and used for internal projects at this time.
 
 ### Install:
 
     go get github.com/genesem/xroutes
+    
 
 ### Getting Started
 

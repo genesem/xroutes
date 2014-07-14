@@ -1,9 +1,11 @@
 <img src="https://genesem.github.io/logo/xroutes.png" alt="xRoutes" title="xRoutes - go lang http api" align="center"/>
-=====
+<br/>
 
-xRoutes is *Golang* fast and simple http routing API
------------------------------------------------------
+xRoutes is *Golang* http routing API
+
 [![GoDoc](https://godoc.org/github.com/genesem/xroutes?status.png)](https://godoc.org/github.com/genesem/xroutes) [![Build Status](https://travis-ci.org/genesem/xroutes.svg?branch=master)](https://travis-ci.org/genesem/xroutes)
+
+===============
 
 
 It is forked from <https://github.com/drone/routes> with some mods

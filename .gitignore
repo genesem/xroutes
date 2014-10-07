@@ -7,11 +7,10 @@
 _obj
 _test
 
-*.test
-*.exe
-
 _testmain.go
 notes*.txt
+makefile
 
-
-
+*.exe
+*.test
+*.txt

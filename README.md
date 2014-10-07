@@ -12,7 +12,7 @@
 - simplicity
 - designed to be fast
 - custom regexp's in parameters
-- filers to routes
+- filters with the routes
 
 It is forked from <https://github.com/drone/routes> with some mods 
 and used for internal projects at this time.
